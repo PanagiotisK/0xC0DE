@@ -1,0 +1,63 @@
+#wholesome {
+    position: relative;
+}
+
+#wholesome>.content {
+    height: 100vh;
+}
+
+.mainPageContext {
+    font-family: "Inter";
+    position: absolute;
+    top: 50%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+}
+
+.mainPageContext #mpcDesc{
+    font-size: 1.8rem;
+    line-height: 0.97;
+}
+
+@media screen and (max-width: 768px) {
+
+    .content{
+        z-index: -1;
+    }
+
+    .mainPageContext {
+        font-family: "Inter";
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: -5vh;
+    }
+
+    .mainPageContext h2 {
+        margin-top: -2vh;
+    }
+
+    .mainPageContext #mpcDesc{
+        font-size: 3rem;
+    }
+
+    .image.fill {
+		height: 50%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+
+		.image.fill img {
+			height: 100%;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 100%;
+		}
+
+}
+
+

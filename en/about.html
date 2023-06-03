@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<title>0xC0DE Bio</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<link rel="icon" href="../images/40px_icon.png">
+	<link rel="stylesheet" href="../assets/css/main.css" />
+	<link rel="stylesheet" href="../assets/css/customed_css.css" />
+	<link rel="stylesheet" href="../assets/css/overlay_menu.css" />
+	<link rel="stylesheet" href="../assets/css/cursor.css" />
+    <link rel="stylesheet" href="../assets/css/customed_product_css.css" />
+	<script>
+		document.addEventListener("DOMContentLoaded", function(event) {
+		  // This code will run when the HTML document has finished loading
+		  var currentYear = new Date().getFullYear();
+		  var spanElement = document.getElementById("expYears");
+		  spanElement.innerHTML = currentYear - 2019;
+
+		});
+	  </script>
+</head>
+
+<body class="is-preload">
+
+	<!-- The overlay -->
+	<div id="myNav" class="overlay">
+
+		<!-- Button to close the overlay navigation -->
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+		<!-- Overlay content -->
+		<div class="overlay-content">
+			<a href="../index.html">Home</a>
+			<a href="./projects.html">Projects</a>
+			<a href="./about.html">About</a>
+			<a href="#">Contact</a>
+		</div>
+
+	</div>
+
+	<div id="mouse-circle-small"></div>
+	<div id="mouse-circle-big"></div>
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<section id="wholesome">
+			<!-- Burgen menu box -->
+			<div id="burgerMenuIcon" onmouseover="animateBurgerBoxOn()" onmouseout="animateBurgerBoxOff()"
+				onclick="openNav()">
+				<svg viewBox="0 0 150 80" width="40" height="40">
+					<rect id="burger_top" width="1em" height="10"></rect>
+					<rect id="burger_middle" y="30" width="1em" height="10"></rect>
+					<rect id="burger_bottom" y="60" width="1em" height="10"></rect>
+				</svg>
+			</div>
+			<div class="mainPageContext">
+				<div id="product_desc">
+					<div id="desc_title">
+						<h2>Bio</h2>
+					</div>
+					<div id="desc_price">
+						<h2>Panagiotis Kiriakopoulos, Athens GR</h2>
+					</div>
+					<div id="desc_expl">
+						<h5>I am an electrical and computer engineer 
+                            with a focus on software engineering, 
+                            with experience in developing 
+                            software solutions for bank industry.
+                            <br>As a full-stack developer with <span id="expYears">4</span> years of experience working at IBM,
+                            main goal is delivering end-to-end solutions that are used by a large number of customers.
+                            <br><br>During my time at IBM, I developed expertise in programming languages such as Java, 
+                            JavaScript, and Python, and have experience with front-end frameworks such as 
+                            Thymeleaf, and back-end frameworks like Spring Boot. I have worked on a variety of projects, 
+                            ranging from building cloud-native microservices to developing 
+                            web and mobile applications. 
+                            <br>I am skilled at working in Agile development environments, 
+                            and have experience with continuous integration and delivery practices. 
+                            <br>I am now seeking to apply my skills to new challenges and develop innovative 
+                            solutions that have a positive impact on the world.
+                            <br><br>I am also passionate about quantum computing, 
+                            and have experience with developing quantum algorithms 
+                            and working with quantum hardware.
+                            <br>I am now seeking to apply my skills to the field of biology, 
+                            leveraging my technical expertise and interest in quantum 
+                            computing to tackle complex challenges in the field.</h5>
+                        <br>
+                        <h5>You can <a href="../Kiriakopoulos_Panagiotis_CV.pdf" download><u>download a more detailed CV</u></a>
+                           <br><br>or see my <a href="https://www.linkedin.com/in/panagiotiskiriakopoulos/"><u>LinkedIn profile</u></a> .
+                        </h5>
+                        <br>
+					</div>
+				</div>
+			</div>
+			<div class="content">
+				<span class="image fill" data-position="center"><img id="prod_img" src="https://bit.ly/42hgA1Y" alt="" /></span>
+			</div>
+			<!-- Copyright -->
+			<!-- <div class="copyright">&copy; Untitled. All rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a>.</div> -->
+		</section>
+	</div>
+
+	<!-- Scripts -->
+	<script src="../assets/js/jquery.min.js"></script>
+	<script src="../assets/js/jquery.scrolly.min.js"></script>
+	<script src="../assets/js/browser.min.js"></script>
+	<script src="../assets/js/breakpoints.min.js"></script>
+	<script src="../assets/js/util.js"></script>
+	<script src="../assets/js/main.js"></script>
+	<script src="../assets/js/overlay_menu.js"></script>
+	<script src="../assets/js/cursor.js"></script>
+    <script src="../assets/js/customed_products_js.js"></script>
+
+</body>
+
+</html>

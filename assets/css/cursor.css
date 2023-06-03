@@ -1,0 +1,49 @@
+#mouse-circle-small {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    margin: -2px 0px 0px -2px;
+    border: 1px solid #000000;
+    background: rgb(0, 0, 0);
+    border-radius: 50%;
+    pointer-events: none !important;
+    box-shadow: 0 0 16px rgba(2, 2, 2, 0);
+    z-index: 10;
+}
+
+
+#mouse-circle-big {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    margin: -12px 0px 0px -12px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    pointer-events: none !important;
+    box-shadow: 0 0 16px rgba(255, 255, 255, 0);
+    z-index: 10;
+}
+
+@media screen and (max-width: 768px) {
+
+    #mouse-circle-small {
+        display: none;
+    }
+    
+    #mouse-circle-big {
+        display: none;
+    }
+
+}
+
+@media only screen and (orientation: portrait) {
+
+    #mouse-circle-small {
+        display: none;
+    }
+    
+    #mouse-circle-big {
+        display: none;
+    }
+
+}
