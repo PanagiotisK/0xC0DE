@@ -21,7 +21,6 @@ fetch(input)
     });
     var i = getRandomInt(0, lines.length);
     var selectedline = lines[i];
-    console.log(selectedline);
     document.getElementById("taglineh2").innerHTML = selectedline;
   })
   .catch(error => {

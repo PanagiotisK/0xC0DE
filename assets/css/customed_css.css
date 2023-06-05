@@ -29,7 +29,8 @@
         font-family: "Inter";
         position: absolute;
         top: 75%;
-        left: 50%;
+        left: 55%;
+		width:80%;
         transform: translate(-50%, -50%);
         margin-top: -5vh;
     }
@@ -40,6 +41,11 @@
 
     .mainPageContext #mpcDesc{
         font-size: 3rem;
+    }
+
+    #taglineh2{
+        font-size: 1.2rem;
+        line-height: 1.27;
     }
 
     .image.fill {

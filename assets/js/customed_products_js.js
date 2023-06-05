@@ -3,7 +3,9 @@ let prodImg = document.getElementById("prod_img");
 let prodTotalCount = prodNames.length;
 
 $( document ).ready(function() {
-    document.getElementsByClassName("menu__item-totalProds")[0].innerHTML = prodTotalCount;
+    if(document.getElementsByClassName("menu__item-totalProds").length > 0) {
+        document.getElementsByClassName("menu__item-totalProds")[0].innerHTML = prodTotalCount;
+    }
 });
 
 function productOnHover(prodItem){

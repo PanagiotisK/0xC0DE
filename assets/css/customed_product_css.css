@@ -70,8 +70,17 @@
         font-size: 0.9em;
     }
 
+    #product_desc h1 {
+        font-size: 1.6rem;
+    }
+    
     #product_desc {
         width: 80vw;
+    }
+
+    #desc_expl {
+        height: 30vh;
+        overflow-y: scroll;
     }
 }
 
