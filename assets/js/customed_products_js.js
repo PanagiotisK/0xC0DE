@@ -6,6 +6,11 @@ $( document ).ready(function() {
     if(document.getElementsByClassName("menu__item-totalProds").length > 0) {
         document.getElementsByClassName("menu__item-totalProds")[0].innerHTML = prodTotalCount;
     }
+
+    var div = document.getElementById("desc_expl");
+    if (div.scrollHeight <= div.clientHeight) {
+        div.style.overflowY = "hidden";
+    }
 });
 
 function productOnHover(prodItem){
