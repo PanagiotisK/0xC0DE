@@ -8,7 +8,7 @@ $( document ).ready(function() {
     }
 
     var div = document.getElementById("desc_expl");
-    if (div.scrollHeight <= div.clientHeight) {
+    if (div && div.scrollHeight <= div.clientHeight) {
         div.style.overflowY = "hidden";
     }
 });
