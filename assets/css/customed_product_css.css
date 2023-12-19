@@ -57,6 +57,35 @@
     overflow-y: scroll;
 }
 
+/* Styles for screens 480px and below */
+@media only screen and (max-width: 480px) {
+  
+    .mainPageContext{
+        padding-top: 36vh;
+    }
+
+    .menu__item-label {
+        display: none;
+    }
+    .menu__item-name {
+        font-size: 0.9em;
+    }
+
+    #product_desc h1 {
+        font-size: 1.6rem;
+    }
+    
+    #product_desc {
+        height: 45vh;
+        width: 80vw;
+    }
+
+    #desc_expl {
+        height: 30vh;
+        overflow-y: scroll;
+    }  
+}
+
 @media screen and (max-width: 768px) {
 
     .mainPageContext{
@@ -75,6 +104,7 @@
     }
     
     #product_desc {
+        height: 45vh;
         width: 80vw;
     }
 
