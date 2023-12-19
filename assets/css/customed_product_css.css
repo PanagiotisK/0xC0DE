@@ -76,7 +76,7 @@
     }
     
     #product_desc {
-        height: 45vh;
+        height: 55vh;
         width: 80vw;
     }
 
@@ -86,7 +86,7 @@
     }  
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
 
     .mainPageContext{
         padding-top: 36vh;
