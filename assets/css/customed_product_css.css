@@ -62,12 +62,13 @@
 @media screen and (min-width: 769px) and (max-width: 1152px) {
     .mainPageContext {
         top: 50%;
-        padding-top: 3vh;
+        padding-top: 0;
     }
 
     #product_desc {
+        margin-top: 1vh;
         width: 70vw;
-        height: 60vh;
+        height: 65vh;
     }
 
     #product_desc h1 {

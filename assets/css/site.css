@@ -61,6 +61,20 @@
     }
 }
 
+/* --- Page-specific: About --- */
+
+@media screen and (min-width: 769px) and (max-width: 1152px) {
+    body.page-about .mainPageContext {
+        top: 60%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body.page-about .mainPageContext {
+        top: 60%;
+    }
+}
+
 /* --- Mobile breakpoint --- */
 
 @media screen and (max-width: 768px) {
