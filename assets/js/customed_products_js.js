@@ -11,6 +11,25 @@ $( document ).ready(function() {
     if (div && div.scrollHeight <= div.clientHeight) {
         div.style.overflowY = "hidden";
     }
+
+    // Scroll-fade: toggle gradient classes based on scroll position
+    if (div && div.scrollHeight > div.clientHeight) {
+        function updateFade() {
+            var atTop = div.scrollTop <= 2;
+            var atBottom = div.scrollTop + div.clientHeight >= div.scrollHeight - 2;
+
+            div.classList.remove("fade-top", "fade-bottom", "fade-both");
+            if (atTop) {
+                div.classList.add("fade-bottom");
+            } else if (atBottom) {
+                div.classList.add("fade-top");
+            } else {
+                div.classList.add("fade-both");
+            }
+        }
+        updateFade();
+        div.addEventListener("scroll", updateFade);
+    }
 });
 
 function productOnHover(prodItem){
