@@ -33,6 +33,45 @@
     margin: 0 0 0 0.5em;
 }
 
+/* --- Tablet breakpoint (769px – 1152px) --- */
+
+@media screen and (min-width: 769px) and (max-width: 1152px) {
+    .mainPageContext {
+        top: 50%;
+        left: 27%;
+        width: auto;
+        padding-top: 3vh;
+    }
+
+    .menu__item {
+        margin: 0 0 0.75em;
+    }
+
+    .menu__item-name {
+        font-size: 1.05em;
+    }
+
+    .menu__item-label {
+        font-size: 0.85em;
+    }
+
+    .image.fill {
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    .image.fill img {
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 768px) {
 
     .mainPageContext{
@@ -150,14 +189,3 @@
     transform-origin: 0% 50%;
 }
 
-@media screen and (max-width: 768px) and (orientation: landscape) {
-    html {
-      transform: rotate(-90deg);
-      transform-origin: left top;
-      width: 100vh;
-      overflow-x: hidden;
-      position: absolute;
-      top: 100%;
-      left: 0;
-    }
-  }

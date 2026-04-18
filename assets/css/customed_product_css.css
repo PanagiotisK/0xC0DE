@@ -57,6 +57,36 @@
     overflow-y: scroll;
 }
 
+/* --- Tablet breakpoint (769px – 1152px) --- */
+
+@media screen and (min-width: 769px) and (max-width: 1152px) {
+    .mainPageContext {
+        top: 50%;
+        padding-top: 3vh;
+    }
+
+    #product_desc {
+        width: 70vw;
+        height: 60vh;
+    }
+
+    #product_desc h1 {
+        font-size: 2.2rem;
+    }
+
+    #desc_expl {
+        height: 35vh;
+    }
+
+    .image.fill {
+        height: 100%;
+    }
+
+    .image.fill img {
+        height: 100%;
+    }
+}
+
 /* Styles for screens 480px and below */
 @media only screen and (max-width: 480px) {
   
@@ -114,22 +144,7 @@
     }
 }
 
-@media screen and (max-width: 768px) and (orientation: landscape) {
-    html {
-      transform: rotate(-90deg);
-      transform-origin: left top;
-      width: 100vw;
-      overflow-x: hidden;
-      position: absolute;
-      top: 100%;
-      left: 0;
-    }
 
-    #product_desc {
-        margin-top: 40vh;
-        width: 80vw;
-    }
-  }
 
   
 /* width */
