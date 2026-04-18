@@ -3,6 +3,13 @@
    Merged from: customed_css, overlay_menu, cursor, language switcher
    ========================================================================== */
 
+/* --- Text selection --- */
+
+::selection {
+    background: #283271;
+    color: #fff;
+}
+
 /* --- Homepage Layout --- */
 
 #wholesome {

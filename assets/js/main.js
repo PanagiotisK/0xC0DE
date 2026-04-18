@@ -6,7 +6,7 @@
 
 (function($) {
 
-	console.log('Welcome to 0xC0DE / Panagiotis Kiriakopoulos portfolio')
+	console.log('Welcome to 0xC0DE / Panagiotis Kiriakopoulos portfolio');
 
 	var	$window = $(window),
 		$body = $('body');
